@@ -35,7 +35,7 @@ class Basicpoint implements Cloneable{
         l.info(a);
         l.info("After cloning:");
         Basicpoint bp1=(Basicpoint)bp.clone();
-        String b=bp1.eqqual(bp1.x,bp1.y);
+        String b=bp.eqqual(bp1.x,bp1.y);
         l.info(b);
         sc.close();
     }
