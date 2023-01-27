@@ -29,7 +29,7 @@ class Basicpoint implements Cloneable{
         int xaxis1=sc.nextInt();
         l.info("enter the value y1:");
         int yaxis1=sc.nextInt();
-        l.info("Before cloning:");
+        l.info("checking whether two points are equal or not:");
         Basicpoint bp=new Basicpoint(xaxis,yaxis);
         String a=bp.eqqual(xaxis1,yaxis1);
         l.info(a);
