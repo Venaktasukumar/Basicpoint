@@ -21,9 +21,13 @@ class Basicpoint implements Cloneable{
     public static void main(String[] args) throws CloneNotSupportedException{
         Scanner sc=new Scanner(System.in);
         Logger l= Logger.getLogger("com.api.jar");
+        l.info("enter the value x:");
         int xaxis=sc.nextInt();
+        l.info("enter the value y:");
         int yaxis=sc.nextInt();
+        l.info("enter the value x1:");
         int xaxis1=sc.nextInt();
+        l.info("enter the value y1:");
         int yaxis1=sc.nextInt();
         l.info("Before cloning:");
         Basicpoint bp=new Basicpoint(xaxis,yaxis);
